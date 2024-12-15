@@ -18,4 +18,4 @@ docker-push:
 	docker push ${IMAGE_REGISTRY}/${IMAGE_NAME}:${APP_VERSION}
 
 run-migrations:
-	liquibase --changeLogFile=db-changelog.xml  --driver=org.postgresql.Driver --url=jdbc:postgresql://13.126.230.162:5432/attendance_db  --username=postgres --password=password  update
+	liquibase --changeLogFile=db-changelog.xml  --driver=org.postgresql.Driver --url=jdbc:postgresql://13.201.69.78:5432/attendance_db  --username=postgres --password=password  update
