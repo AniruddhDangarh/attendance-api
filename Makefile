@@ -19,3 +19,4 @@ docker-push:
 
 run-migrations:
 	liquibase --changeLogFile=db-changelog.xml  --driver=org.postgresql.Driver --url=jdbc:postgresql://13.201.69.78:5432/attendance_db  --username=postgres --password=password  update
+
